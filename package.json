@@ -1,0 +1,14 @@
+{
+  "name": "node-bin",
+  "version": "0.10.33",
+  "description": "node",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm install `node .`"
+  },
+  "bin": {
+    "node": "node_modules/.bin/node"
+  },
+  "keywords": "mad science",
+  "license": "ISC"
+}
