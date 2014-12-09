@@ -1,6 +1,6 @@
 {
   "name": "node-bin",
-  "version": "0.10.24",
+  "version": "0.10.25",
   "description": "node",
   "main": "index.js",
   "scripts": {
