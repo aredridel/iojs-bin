@@ -1,13 +1,14 @@
 {
-  "name": "node-bin",
-  "version": "0.11.15",
-  "description": "node",
+  "name": "iojs-bin",
+  "version": "1.0.0",
+  "description": "iojs",
   "main": "index.js",
   "scripts": {
     "preinstall": "npm install --global=false `node .`"
   },
   "bin": {
-    "node": "node_modules/.bin/node"
+    "node": "node_modules/.bin/node",
+    "iojs": "node_modules/.bin/iojs"
   },
   "keywords": "mad science",
   "license": "ISC"

@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-console.log("node-" + process.platform + '-' + process.arch + '@' + require('./package.json').version);
+console.log("iojs-" + process.platform + '-' + process.arch + '@' + require('./package.json').version);
