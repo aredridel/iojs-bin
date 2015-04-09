@@ -1,6 +1,6 @@
 {
   "name": "iojs-bin",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "iojs",
   "main": "index.js",
   "scripts": {
