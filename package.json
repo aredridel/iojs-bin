@@ -11,5 +11,9 @@
     "iojs": "node_modules/.bin/iojs"
   },
   "keywords": "mad science",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aredridel/iojs-bin"
+  }
 }
