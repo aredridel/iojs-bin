@@ -1,15 +1,31 @@
 {
   "name": "iojs-bin",
-  "version": "3.0.0",
-  "description": "iojs",
+  "version": "3.3.0",
+  "description": "node",
   "main": "index.js",
-  "scripts": {
-    "preinstall": "npm install --global=false `node .`"
-  },
   "bin": {
-    "node": "node_modules/.bin/node",
-    "iojs": "node_modules/.bin/iojs"
+    "node": "node_modules/.bin/node"
   },
-  "keywords": "mad science",
-  "license": "ISC"
+  "keywords": [
+    "mad science"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aredridel/iojs-bin.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/aredridel/iojs-bin/issues"
+  },
+  "optionalDependencies": {
+    "iojs-linux-x86": "3.3.0",
+    "iojs-linux-x64": "3.3.0",
+    "iojs-linux-armv6l": "3.3.0",
+    "iojs-linux-armv7l": "3.3.0",
+    "iojs-darwin-x64": "3.3.0",
+    "iojs-sunos-x86": "3.3.0",
+    "iojs-sunos-x64": "3.3.0"
+  },
+  "homepage": "https://github.com/aredridel/iojs-bin#readme"
 }
